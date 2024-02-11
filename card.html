@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        #container{
+            display: flex;
+            justify-content:space-around;
+            align-items: center;
+            height: 100vh;
+            flex-wrap: wrap;
+            row-gap: 25px;
+
+        }
+
+        .card{
+            width:500px;
+            padding: 20px;
+            border: 2px solid gray;
+            position: relative;
+            transition: transform .3s ease;
+            overflow: hidden;
+            object-position:center;
+            object-fit: contain;
+        }
+
+        .card:hover{
+            transform: scale(1.1);
+        }
+        img{
+            
+            width: 100%;
+            overflow: hidden;
+            object-position:center;
+            
+            object-fit: cover;
+            
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div id="container">
+       {%PRODUCTCARD%}
+    </div>
+</body>
+</html>
+

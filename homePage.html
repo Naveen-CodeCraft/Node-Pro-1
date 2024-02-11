@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+        background-color: cornflowerblue;
+      }
+
+      #container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100vh;
+        flex-wrap: wrap;
+        row-gap: 25px;
+      }
+
+      .card {
+        width: 350px;
+        padding: 10px;
+        border: 1px solid gray;
+        position: relative;
+        transition: transform 0.3s ease;
+        overflow: hidden;
+        object-position: center;
+        object-fit: contain;
+      }
+
+      .card:hover {
+        transform: scale(1.1);
+      }
+      img {
+        width: 100%;
+        overflow: hidden;
+        object-position: center;
+
+        object-fit: cover;
+      }
+      button{
+        width: 100px;
+        height: 40px;
+        font-weight: bold;
+        background-color: white;
+        
+
+      }
+      a{
+        text-decoration: none;
+        background-color: white;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      {%PRODUCTS%}
+      
+    </div>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+[
+  {
+    "id": 0,
+    "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+    "price": 109.95,
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "category": "men's clothing",
+    "image": "https://tse4.mm.bing.net/th?id=OIP.QErzyvNoAKjfxP3jqjp-CgHaEp&pid=Api&P=0&h=180",
+    "rating": { "rate": 3.9, "count": 120 }
+  },
+
+  {
+    "id": 1,
+    "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
+    "price": 599,
+    "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz",
+    "category": "electronics",
+    "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https:%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2022%2F09%2F30%2FSamsung-55-inch.jpg",
+    "rating": { "rate": 2.9, "count": 250 }
+  },
+  {
+    "id": 2,
+    "title": "Samsung 49-Inch CHG90 144Hz Curved Moniter. ",
+    "price": 999.99,
+    "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR",
+    "category": "electronics",
+    "image": "https://i.pinimg.com/originals/f4/aa/fe/f4aafe2f03160c7d827556b4d51ab39e.jpg",
+    "rating": { "rate": 2.2, "count": 140 }
+  }
+]
