@@ -1,7 +1,8 @@
 const fs = require('fs');
 const http = require('http');
 const url = require('url');
-
+const hostname = '0.0.0.0'
+const port = 3000;
 
 /*read file synchronusly because it will run at the first time 
 if we put into the server it will run again and again when the server met request..*/
@@ -78,6 +79,6 @@ const server = http.createServer((req, res) => {
     }
 })
 
-server.listen(8080,() => {
+server.listen(port, hostname,() => {
     console.log("Hey server is now listening on the port 8080..")
 })
